@@ -5,7 +5,7 @@ return {
     color_scheme = "Dracula+",
     disable_default_key_bindings = true,
     enable_tab_bar = false,
-    font = wezterm.font({family="JetBrains Mono"}),
+    font = wezterm.font({family="JetBrainsMono Nerd Font"}),
     font_size = 12.0,
     hide_tab_bar_if_only_one_tab = true,
     keys = {
