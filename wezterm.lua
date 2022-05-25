@@ -17,6 +17,7 @@ return {
         { key = "h", mods = "SUPER", action = "HideApplication" },
         { key = "f", mods = "SUPER", action = wezterm.action({ Search = { CaseSensitiveString = "" } }) },
         { key = "x", mods = "SUPER", action = "ActivateCopyMode" },
+        { key = "q", mods = "SUPER", action = wezterm.action({ CloseCurrentTab = { confirm=true } }) },
         { key = "Backspace", mods = "SUPER", action = wezterm.action({SendString = "\x15" }) },
     },
     scrollback_lines = 100000,
