@@ -4,6 +4,11 @@ return {
     adjust_window_size_when_changing_font_size = false,
     audible_bell="Disabled",
     color_scheme = "Dracula+",
+    color_schemes = {
+        ["Dracula+"] = {
+            background = "#1d1f21",
+        }
+    },
     disable_default_key_bindings = true,
     enable_tab_bar = false,
     font = wezterm.font({family="JetBrainsMono Nerd Font"}),
